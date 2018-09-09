@@ -1,0 +1,24 @@
+@keyframes borderLight {
+  from {border: 2px solid red;}
+  to {border: 2px solid blue;}
+
+body{
+	background-color: blue;	
+}
+
+.page{
+	color: orange;
+}
+
+.imageBlock img {
+  width: 800px;
+}
+
+.shortBio {
+  padding: 10px;
+  
+}
+
+.animated {
+  animation: borderLight 1s linear infinite alternate;
+}
