@@ -8,7 +8,7 @@ console.log(form);
 let ug = document.querySelector('.total');
 
 form.onsubmit=function(e) {
-	e.preventDefault();
+	e.preventDefault();//эта строчка не дает коду пропадать почему-то!
 	let pp = Math.sin(form.elements.ugol1.value);
 	ug.innerHTML = pp
 } 
